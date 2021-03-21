@@ -63,7 +63,7 @@
     "ngx-logger": "^4.0.7",
     "ngx-material-file-input": "^1.1.1",
     "ngx-papaparse": "^4.0.4",
-    "node-sass": "^4.12.0",
+    "node-sass": "^5.0.0",
     "rxjs": "^6.5.2",
     "tslint-language-service": "^0.9.9",
     "zone.js": "~0.9.1"
