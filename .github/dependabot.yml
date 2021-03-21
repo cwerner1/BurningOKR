@@ -18,3 +18,8 @@ updates:
     directory: "/backend/" # Location of package manifests
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "docker" # See documentation for possible values
+    directory: "/docker/" # Location of package manifests
+    schedule:
+      interval: "daily"
