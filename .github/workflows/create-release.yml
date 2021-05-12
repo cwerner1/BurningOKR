@@ -72,7 +72,7 @@ jobs:
         prerelease: true
     - name: Upload Release Jar
       id: upload-release-jar
-      uses: actions/upload-release-asset@v1
+      uses: actions/upload-release-asset@v1.0.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with: 
@@ -82,7 +82,7 @@ jobs:
         asset_content_type: application/jar 
     - name: Upload Release War
       id: upload-release-war
-      uses: actions/upload-release-asset@v1
+      uses: actions/upload-release-asset@v1.0.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with: 
@@ -92,7 +92,7 @@ jobs:
         asset_content_type: application/war
     - name: Upload Release German Frontend Zip
       id: upload-release-frontend-zip-de
-      uses: actions/upload-release-asset@v1
+      uses: actions/upload-release-asset@v1.0.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with: 
@@ -102,7 +102,7 @@ jobs:
         asset_content_type: application/zip
     - name: Upload Release English Frontend Zip
       id: upload-release-frontend-zip-en
-      uses: actions/upload-release-asset@v1
+      uses: actions/upload-release-asset@v1.0.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
