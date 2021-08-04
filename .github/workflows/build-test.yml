@@ -34,7 +34,7 @@ jobs:
       run: ./gradlew -PprojVersion="$PACKAGE_VERSION" bootWar
       working-directory: ./backend/burning-okr
     - name: Npm Setup
-      uses: actions/setup-node@v2.1.5
+      uses: actions/setup-node@v2.3.1
       with:
         node-version: '12.x'
     - name: Npm Install
